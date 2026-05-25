@@ -17,14 +17,15 @@ Download the entire folder as a .zip, unpack it, and import it into Unity (2022)
 
 ## Credits & License
 - The textures were dowloaded from ambientCG and Polyhaven, they are licensed under the CC0 license.
-- The included shaders were all written by me (except the MetaPass shader), they are licensed under the MIT license https://opensource.org/license/mit so feel free to use them in your project
+- The included shaders were all written by me (except the MetaPass shader), they are licensed under the MIT license https://opensource.org/license/mit so feel free using and modifying them in your project
 - Everything else, including the presentration, are licensed under CC BY-NC 4.0 https://creativecommons.org/licenses/by-nc/4.0/deed.en, the credits should link to this GitHub repository.
 
 # Content
 
 ### 6 - Filamented
-Here you can compare Unity Standard and Filamented
-There's a weird Silent Filamented issue I noticed that makes surfaces non-metallic when the "specular highlight" toggle was turned on, so in this example I turned that setting Off. 
+Here you can compare Unity Standard and Filamented.
+
+There's a weird issue I noticed that makes surfaces non-metallic when the "specular highlight" toggle was turned on, so in this example I turned that setting Off. 
 
 ### 11 - Oil
 A very basic oil puddle shader that uses the specular workflow to reflect colored specular reflections
@@ -58,11 +59,14 @@ Example showing how speculars can be added in a scene that doesn't have any real
 
 ### 89 - Bakery Area Light
 **This scene requires a rebake using Bakery.**
+
 One area light was baked using "Self-Shadow" On, the other one was baked with that toggle off, notice the difference in quality.
 
 ### 82~86 - Bakery directional modes
 **This scene requires a rebake using Bakery.**
+
 In this scene, you can compare the different directional modes Bakery offers.
+
 I also added a few examples comparing the quality of baked specular, but I personally didn't noticed much of a difference
 
 ### 90 - Bakery Soft Shadow
@@ -71,6 +75,7 @@ Test how sample count affects shadow quality, and how "legacy sampling" can decr
 
 ### 100 - Meta Pass
 An example shader that uses meta pass to make a surface reflect green light even though the surface is actually white. The small wall in the middle of the room uses such a shader.
+
 This is the only shader in this repository that wasn't made with Amplify.
 
 ### 101 - TransparencyLM
@@ -78,6 +83,7 @@ Example of a shader that uses TransparencyLM to add light transmission propertie
 
 ### 107 - CBIRP
 This scene requires the CBIRP package https://github.com/z3y/ClusteredBIRP
+
 Demo scene with 16 light sources
 
 ### 114 - Specular Occlusion
