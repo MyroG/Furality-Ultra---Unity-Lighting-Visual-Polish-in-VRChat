@@ -30,22 +30,30 @@ There's a weird issue I noticed that makes surfaces non-metallic when the "specu
 ### 11 - Oil
 A very basic oil puddle shader that uses the specular workflow to reflect colored specular reflections
 
-### 39 - Shadow radius examples
+### 13~15 - Transparency
+Compares different transparency modes : Fade, transparent and cutout
+
+### 29 - Lightmap mask
+An example of a shader allowing you to change the color of 3 baked light sources. 
+
+The scene has 3 light sources red, green, and blue. Each color channel of the baked lightmap then acts as a separate mask. The custom shader can read each channel independently and use it to control different lighting colors.
+
+### 44 - Shadow radius
 Demo showing the effect of the baked shadow radius setting. I also added an example of a baked emissive light source, an orb that has a size of 0.2, notice that it emits a light equivalent to a light source with a shadow radius set to 0.1.
 
-### 40 - Indirect light multiplier
+### 45 - Indirect light multiplier
 Very basic demo showing the effect of the indirect light multiplier.
 
-### 41~42 - Cookie
+### 46~47 - Cookie
 A bunch of examples showing what you can achieve with cookie textures. (Baked and not baked)
 
 ### 45 - Light Probes
 An example scene that uses light probes, move the avatar around to see how light probes affect the lighting of it.
 
-### 47 - Light Probes
+### 54 - Light volumes
 An example scene that uses light volumes, move the avatar and the spheres around to see how light volumes affect the lighting of them.
 
-### 71~73 - Reflection probe
+### 78~80 - Reflection probe
 4 different reflection probe settups :
 - Box projection OFF
 - Box projection ON, RP at eye level
@@ -53,49 +61,49 @@ An example scene that uses light volumes, move the avatar and the spheres around
 - Box projection ON, RP closer to the roof
 Notice the difference in quality of the reflection depending on its position
 
-### 77 - Reflection Proxy
+### 84 - Reflection Proxy
 Example showing how speculars can be added in a scene that doesn't have any real-time lights
 
 
-### 89 - Bakery Area Light
+### 89~93 - Bakery directional modes
 **This scene requires a rebake using Bakery.**
 
 One area light was baked using "Self-Shadow" On, the other one was baked with that toggle off, notice the difference in quality.
 
-### 82~86 - Bakery directional modes
+### 96 - Bakery Area Light
 **This scene requires a rebake using Bakery.**
 
 In this scene, you can compare the different directional modes Bakery offers.
 
 I also added a few examples comparing the quality of baked specular, but I personally didn't noticed much of a difference
 
-### 90 - Bakery Soft Shadow
+### 97 - Bakery Soft Shadow
 **This scene requires a rebake using Bakery.**
 Test how sample count affects shadow quality, and how "legacy sampling" can decrease shadow quality
 
-### 100 - Meta Pass
+### 107 - Meta Pass
 An example shader that uses meta pass to make a surface reflect green light even though the surface is actually white. The small wall in the middle of the room uses such a shader.
 
 This is the only shader in this repository that wasn't made with Amplify.
 
-### 101 - TransparencyLM
+### 108 - TransparencyLM
 Example of a shader that uses TransparencyLM to add light transmission properties to the material
 
-### 107 - CBIRP
+### 114 - CBIRP
 This scene requires the CBIRP package https://github.com/z3y/ClusteredBIRP
 
-Demo scene with 16 light sources
-
-### 114 - Specular Occlusion
-AN example where you want specular occlusion to be OFF, or at least less intense, notice the floor not reflecting the Window.
+Demo scene with 16 light sourcesvrcblender
 
 ### 115 - Stochastic
+AN example where you want specular occlusion to be OFF, or at least less intense, notice the floor not reflecting the Window.
+
+### 121 - Specular Occlusion
 Example of Stochastic sampling
 
-### 120~121 - Height map
+### 127~128 - Height map
 Comparison of different parallax mapping methods using different shaders.
 
-### 122 - Height map Soft edges
+### 129 - Height map Soft edges
 Demonstration of the hard vs soft edges issue, notice the material "warping" around when you get closer to a surface that has "soft" normals
 
 ### X - Terrain
