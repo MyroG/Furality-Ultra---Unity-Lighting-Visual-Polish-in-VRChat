@@ -99,13 +99,13 @@ Example of a shader that uses TransparencyLM to add light transmission propertie
 ### 114 - CBIRP
 This scene requires the CBIRP package https://github.com/z3y/ClusteredBIRP
 
-Demo scene with 16 light sourcesvrcblender
+Demo scene with 16 light sources
 
 ### 115 - Stochastic
-AN example where you want specular occlusion to be OFF, or at least less intense, notice the floor not reflecting the Window.
+Example of Stochastic sampling
 
 ### 121 - Specular Occlusion
-Example of Stochastic sampling
+An example where you want specular occlusion to be turned OFF, or at least less intense, notice the floor not reflecting the Window.
 
 ### 127~128 - Height map
 Comparison of different parallax mapping methods using different shaders.
