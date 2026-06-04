@@ -9,9 +9,9 @@ Each folder starts with a number. That's the page number of the presentation, fo
 
 Requires :
 - VRChat world SDK
-- Silent Filamented shader
-- z3y graphlit
-- z3y Clustered BIRP
+- Silent Filamented shader https://gitlab.com/s-ilent/filamented
+- z3y graphlit https://github.com/z3y/Graphlit
+- z3y Clustered BIRP https://github.com/z3y/ClusteredBIRP
 
 Download the entire folder as a .zip, unpack it, and import it into Unity (2022)
 
