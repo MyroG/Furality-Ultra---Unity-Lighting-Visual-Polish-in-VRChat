@@ -17,6 +17,7 @@ Download the entire folder as a .zip, unpack it, and import it into Unity (2022)
 
 ## Credits & License
 - The textures were dowloaded from ambientCG and Polyhaven, they are licensed under the CC0 license.
+- The vrcfox avatar (made by trev3d) is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. https://github.com/trev3d/vrcfox?tab=License-1-ov-file#readme
 - The included shaders were all written by me (except the MetaPass shader), they are licensed under the MIT license https://opensource.org/license/mit so feel free using and modifying them in your project
 - Everything else, including the presentration, are licensed under CC BY-NC 4.0 https://creativecommons.org/licenses/by-nc/4.0/deed.en, the credits should link to this GitHub repository.
 
@@ -37,6 +38,8 @@ Compares different transparency modes : Fade, transparent and cutout
 An example of a shader allowing you to change the color of 3 baked light sources. 
 
 The scene has 3 light sources red, green, and blue. Each color channel of the baked lightmap then acts as a separate mask. The custom shader can read each channel independently and use it to control different lighting colors.
+
+Use the material to change the color of each light source.
 
 ### 44 - Shadow radius
 Demo showing the effect of the baked shadow radius setting. I also added an example of a baked emissive light source, an orb that has a size of 0.2, notice that it emits a light equivalent to a light source with a shadow radius set to 0.1.
