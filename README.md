@@ -9,9 +9,13 @@ Each folder starts with a number. That's the page number of the presentation, fo
 
 Requires :
 - VRChat world SDK
+
+Some scenes require :
 - Silent Filamented shader https://gitlab.com/s-ilent/filamented
 - z3y graphlit https://github.com/z3y/Graphlit
 - z3y Clustered BIRP https://github.com/z3y/ClusteredBIRP
+- Light volumes https://github.com/REDSIM/VRCLightVolumes
+- Baked volumetric https://github.com/Ikeiwa/Unity-Baked-Volumetrics 
 
 Download the entire folder as a .zip, unpack it, and import it into Unity (2022)
 
